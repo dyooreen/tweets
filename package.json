@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "install": "cd maps-socket-itwitter && npm i",
-      "start": "cd maps-socket-itwitter && npm start"
+        "start": "cd maps-socket-itwitter && npm start"
     },
     "author": "",
     "license": "ISC"
-  }
+}
