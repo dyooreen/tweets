@@ -101,18 +101,9 @@ html, body {
 #main img{
     border-radius: 15px;
 }
-/* #main.active {
-    transition: right 1s ease;
-    right: 0;
+@media only screen and (max-width: 600px) {
+    #map{
+        display: block;
+        width: 100%;
+    }
 }
-
-.image_twitter {
-    border-radius: 50px;
-    border: 4px solid lightblue;
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
-}
-.image_twitter img {
-    border-radius: 50px;
-} */
