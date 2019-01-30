@@ -17,10 +17,16 @@ function sendGeocode(lat, lng) {
         data.statuses.map(status =>  {
             console.log(status);
             const text = status.text;
+            const screen_name = status.user.screen_name;
             const name = status.user.name;
             const img_url = status.user.profile_image_url;
-            const img = `<img src="${img_url}"/>`;
-            $('#main').append("<div><h1>" + name + "</h1>" + img + "<p>" + text + "</p>" + "</div>")
+            $('#main').append(`<div>
+                <h1> ${name}</h1>
+                <a href="https://twitter.com/${screen_name}" target="_blank">
+                <img src="${img_url}"/>
+                </a>
+                <p>${text}</p>
+            </div>`)
         });
     });
 }
