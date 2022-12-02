@@ -6,7 +6,7 @@ const T = new Twit({
   consumer_secret: "fmRzZhYmtTock2ekoegt3ZnLy4ocxEAN8RnnOJMNox0VnbvZlw",
   access_token: "3003116730-cgV74NOk4HtNy47Tb6PHXY901wq9QxSHk7DlNmj",
   access_token_secret: "KAI1EukeujwicwyVTaciIiG7sWS2uOkypa8DzB8FXbqMQ",
-  timeout_ms: 60 * 1000,
+  timeout_ms: 10 * 1000,
   strictSSL: true,
 });
 
