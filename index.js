@@ -7,7 +7,7 @@ const twit = require("./twitter");
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
-const port = ;
+const port = 80;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
